@@ -1,0 +1,18 @@
+{
+  "regions": {
+    "global": "Global",
+    "europe": "Europe",
+    "africa": "Africa",
+    "asia": "Asia",
+    "australia": "Australia",
+    "china": "China",
+    "northamerica": "North America",
+    "southamerica": "South America"
+  },
+  "seasons": {
+    "season1": {
+      "name": "Season 1",
+      "start": "2023-09-27T00:00:00Z"
+    }
+  }
+}

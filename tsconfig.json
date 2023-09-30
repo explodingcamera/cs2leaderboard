@@ -8,6 +8,7 @@
     "allowImportingTsExtensions": true,
     "noEmit": true,
     "composite": true,
+    "resolveJsonModule": true,
     "strict": true,
     "downlevelIteration": true,
     "skipLibCheck": true,
@@ -15,8 +16,7 @@
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
     "allowJs": true,
-    "types": [
-      "bun-types" // add Bun global
-    ]
-  }
+    "types": ["bun-types"]
+  },
+  "include": ["./data/meta.json", "./index.ts"]
 }
