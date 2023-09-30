@@ -1,0 +1,27 @@
+name: Daily Script
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+      - name: Run script
+        run: bun run ./index.ts
+      - name: Commit changes
+        run: |
+          git config user.name "CS2 Leaderboard"
+          git config user.email "actions@github.com"   
+          git checkout main
+          git add .
+          git commit -m "Update leaderboard"
+          git push origin main
