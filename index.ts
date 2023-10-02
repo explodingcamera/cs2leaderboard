@@ -1,3 +1,4 @@
+import fs from 'node:fs/promises';
 import { regions } from './data/meta.json' assert { type: "json" };
 
 const timestamp = new Date().toISOString().replace(/[:.-]/g, '_');
@@ -10,7 +11,7 @@ const fetchLeaderboard = async (region: string) => {
   return data;
 }
 
-const promises = Object.keys(regions).map(async (region) => {
+const promises = Object.keys(regions).map((region) => async () => {
   const data = await fetchLeaderboard(region);
   const filename = `./data/historical/${region}/${timestamp}.json`;
   const filenameLatest = `./data/latest/${region}.json`;
@@ -21,6 +22,4 @@ const promises = Object.keys(regions).map(async (region) => {
 });
 
 await Promise.all(promises);
-const datapoints = Bun.file("./data/timestamps.csv").writer();
-await datapoints.write(`${timestamp}\n`);
-await datapoints.flush();
+await fs.appendFile('./data/timestamps.csv', `${timestamp}\n`);
