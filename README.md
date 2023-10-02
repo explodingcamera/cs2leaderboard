@@ -1,6 +1,6 @@
 # cs2leaderboard
 
-A free to use API for the CS2 Leaderboard data. Includes daily snapshots of the leaderboard and usefull metadata, such as game stats and ratings. Feel free to use this data for your own projects, but please link back to this repository if you do.
+A free-to-use API for the CS2 leaderboard data. Includes daily snapshots of the leaderboard and useful metadata, such as game stats and ratings. Feel free to use this data for your own projects, but please link back to this repository if you do.
 
 # API Endpoints
 
