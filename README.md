@@ -4,11 +4,11 @@ A free to use API for the CS2 Leaderboard data. Includes daily snapshots of the 
 
 # API Endpoints
 
-> **Data for a specific region or 'global'**
-> https://explodingcamera.github.io/cs2leaderboard/data/latest/{region}.json
+> **Data for a specific region or 'global'**\
+> [https://explodingcamera.github.io/cs2leaderboard/data/latest/{region}.json](https://explodingcamera.github.io/cs2leaderboard/data/latest/{region}.json)
 
 > **Historical data for a specific region or 'global'**\
-> https://explodingcamera.github.io/cs2leaderboard/data/historical/{region}/{date}.json
+> [https://explodingcamera.github.io/cs2leaderboard/data/historical/{region}/{date}.json](https://explodingcamera.github.io/cs2leaderboard/data/historical/{region}/{date}.json)
 
 | Parameter | Type | Description |
 | :--- | :--- | :--- |
