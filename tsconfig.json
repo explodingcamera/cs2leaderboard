@@ -18,5 +18,5 @@
     "allowJs": true,
     "types": ["bun-types"]
   },
-  "include": ["./data/meta.json", "./index.ts"]
+  "include": ["./data/meta.json", "./index.ts", "./proto/scoreboard.ts"]
 }
