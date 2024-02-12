@@ -1,3 +1,6 @@
+// See
+// https://github.com/SteamDatabase/Protobufs/blob/f50c5d684c44995318351f37a6527aed7eeb7131/csgo/cstrike15_gcmessages.proto#L319C1-L335C2
+
 message ScoreLeaderboardData {
   message Entry {
     optional uint32 tag = 1;

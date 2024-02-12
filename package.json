@@ -4,13 +4,13 @@
   "type": "module",
   "devDependencies": {
     "bun-types": "latest",
-    "ts-proto": "^1.162.1"
+    "ts-proto": "^1.167.3"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
   "dependencies": {
     "long": "^5.2.3",
-    "protobufjs": "^7.2.5"
+    "protobufjs": "^7.2.6"
   }
 }
