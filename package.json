@@ -2,15 +2,12 @@
   "name": "cs2leaderboard",
   "module": "index.ts",
   "type": "module",
-  "devDependencies": {
-    "bun-types": "latest",
-    "ts-proto": "^1.167.3"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  },
   "dependencies": {
     "long": "^5.2.3",
     "protobufjs": "^7.2.6"
+  },
+  "devDependencies": {
+    "bun-types": "^1.0.30",
+    "ts-proto": "^1.168.0"
   }
 }
