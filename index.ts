@@ -49,13 +49,13 @@ const promises = Object.keys(regions).map(async (region) => {
 await fs.appendFile("./data/timestamps.csv", `${timestamp}\n`);
 
 const maps = [
-	"anubis",
-	"inferno",
-	"mirage",
-	"vertigo",
-	"overpass",
-	"nuke",
 	"ancient",
+	"nuke",
+	"dust2",
+	"vertigo",
+	"mirage",
+	"inferno",
+	"anubis",
 	undefined,
 ];
 

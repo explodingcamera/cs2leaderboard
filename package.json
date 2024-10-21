@@ -3,10 +3,10 @@
 	"module": "index.ts",
 	"type": "module",
 	"devDependencies": {
-		"bun-types": "^1.1.26",
-		"ts-proto": "^2.0.3"
+		"bun-types": "^1.1.31",
+		"ts-proto": "^2.2.4"
 	},
 	"dependencies": {
-		"@bufbuild/protobuf": "^2.0.0"
+		"@bufbuild/protobuf": "^2.2.0"
 	}
 }
